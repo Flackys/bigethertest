@@ -5,7 +5,7 @@ import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
-    <main className="relative h-screen max-h-screen w-screen overflow-hidden bg-[#060709] text-white flex flex-col justify-between select-none">
+    <main className="relative min-h-screen w-full lg:h-screen lg:max-h-screen overflow-x-hidden lg:overflow-hidden bg-[#060709] text-white flex flex-col justify-between select-none">
       {/* Background Graphic from Figma */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <Image
